@@ -4,101 +4,121 @@ let MSGS = {
     tlh: 'mo\'Qoq',
     es: 'Movimiento',
     fr: 'Mouvement',
+    pt: 'Movimento'
   },
   '#blk-motor#': {
     en: 'Motor',
     tlh: 'nguSDI\'',
     es: 'Motor',
     fr: 'Moteur',
+    pt: 'Motor',
   },
   '#blk-sensors#': {
     en: 'Sensors',
     tlh: 'ghe\'\'or',
     es: 'Sensores',
     fr: 'Capteurs',
+    pt: 'Sensores',
   },
   '#blk-sound#': {
     en: 'Sound',
     tlh: 'wab',
     es: 'Sonido',
     fr: 'Sons',
+    pt: 'Sons',
   },
   '#blk-control#': {
     en: 'Control',
     tlh: 'SeH',
     es: 'Control',
     fr: 'Contrôle',
+    fr: 'Controle',
   },
   '#blk-logic#': {
     en: 'Logic',
     tlh: 'wanl\'',
     es: 'Logica',
     fr: 'Logique',
+    es: 'Lógica',
   },
   '#blk-loops#': {
     en: 'Loops',
     tlh: 'QoQ',
     es: 'Bucles',
     fr: 'Boucles',
+    pt: 'Loops',
   },
   '#blk-math#': {
     en: 'Math',
     tlh: 'ma\'rIch',
     es: 'Matematica',
     fr: 'Maths',
+    pt: 'Matemática',
   },
   '#blk-text#': {
     en: 'Text',
     tlh: 'wej',
     es: 'Texto',
     fr: 'Texte',
+    pt: 'Texto',
   },
   '#blk-lists#': {
     en: 'Lists',
     tlh: 'tlhegh',
     es: 'Listas',
     fr: 'Listes',
+    pt: 'Listas',
   },
   '#blk-variables#': {
     en: 'Variables',
     tlh: 'qeylIS',
     es: 'Variables',
     fr: 'Variables',
+    es: 'Variáveis',
   },
   '#blk-functions#': {
     en: 'Functions',
     tlh: 'tlhaw\'DIyuS',
     es: 'Funciones',
     fr: 'Fonctions',
+    pt: 'Funções',
   },
   '#blk-when_started#': {
     en: 'When Started',
     es: 'Al comenzar',
     fr: 'Au démarrage',
+    es: 'Quando Começar',
   },
   '#blk-sleep_for#': {
     en: 'sleep for',
+    pt: 'espere por',
   },
   '#blk-seconds#': {
     en: 'seconds',
+    pt: 'segundos',
   },
   '#blk-milliseconds#': {
     en: 'milliseconds',
+    pt: 'millisegundos',
   },
   '#blk-stop_moving_and#': {
-    en: 'stop moving and',
+    en: 'pare de se mover e',
   },
   '#blk-brake#': {
     en: 'brake',
+    pt: 'parar',
   },
   '#blk-coast#': {
     en: 'coast',
   },
   '#blk-hold#': {
     en: 'hold',
+    pt: 'aguarde',
   },
   '#blk-stop_motor_on_port#': {
     en: 'stop motor on port',
+    pt: 'pare o motor na porta',
+    
   },
   '#blk-and#': {
     en: 'and',
@@ -108,12 +128,16 @@ let MSGS = {
   },
   '#blk-and_speed#': {
     en: 'and speed',
+    pt: 'and speed',
   },
   '#blk-degrees#': {
     en: 'degrees',
+    pt: 'graus',
+    
   },
   '#blk-rotations#': {
     en: 'rotations',
+    pt: 'rotações',
   },
   '#blk-move_steering_tooltip#': {
     en: 'direction ranges from -100 (left) to 0 (straight) to 100 (right)',
@@ -123,93 +147,123 @@ let MSGS = {
   },
   '#blk-exit_program#': {
     en: 'exit program',
+    pt: 'sair do programa',
   },
   '#blk-position_of_motor_on_port#': {
     en: 'position of motor on port',
+    pt: 'posição do motor na porta',
   },
   '#blk-in_degrees#': {
     en: 'in degrees',
+    pt: 'em graus',
   },
   '#blk-speed_of_motor_on_port#': {
     en: 'speed of motor on port',
+    pt: 'velocidade do motor na porta',
   },
   '#blk-reset_position_of_motor_on_port#': {
     en: 'reset position of motor on port',
+    en: 'reiniciar posição do motor na porta',
   },
   '#blk-both_wheels#': {
     en: 'Both wheels',
+    pt: 'ambas as rodas',
   },
   '#blk-left_wheel#': {
     en: 'Left Wheel',
+    pt: 'roda direira',
   },
   '#blk-right_wheel#': {
     en: 'Right Wheel',
+    en: 'roda esquerda',
   },
   '#blk-move_tank_with_left_speed#': {
     en: 'move tank with left speed',
+    pt: 'mova o tanque com velocidade para a esquerda',
   },
   '#blk-and_right_speed#': {
     en: 'and right speed',
+    pt: 'com velocidade para a direita',
   },
   '#blk-color_sensor#': {
     en: 'color_sensor',
+    pt: 'sensor de cor',
   },
   '#blk-on_port#': {
     en: 'on port',
+    pt: 'na porta',
   },
   '#blk-reflected_light_intensity#': {
     en: 'reflected light intensity',
+    pt: 'intensidade de luz refletida',
   },
   '#blk-color#': {
     en: 'color',
+    pt: 'cor',
   },
   '#blk-color_name#': {
     en: 'color name',
+    en: 'nome da cor',
   },
   '#blk-red#': {
     en: 'red',
+    pt: 'vermelho',
   },
   '#blk-green#': {
     en: 'green',
+    pt: 'verde',
   },
   '#blk-blue#': {
     en: 'blue',
+    pt: 'azul',
   },
   '#blk-rgb#': {
     en: 'rgb (list)',
   },
   '#blk-ultrasonic_distance_on_port#': {
     en: 'ultrasonic distance on port',
+    pt: 'distancia ultrasonica na porta',
   },
   '#blk-in#': {
     en: 'in',
   },
   '#blk-gyro#': {
     en: 'gyro',
+    pt: 'giroscópio',
   },
   '#blk-angle#': {
     en: 'angle',
+    en: 'ângulo',
+    
   },
   '#blk-rate#': {
     en: 'rate',
+    pt: 'taxa',
   },
   '#blk-reset_gyro_on_port#': {
     en: 'reset gyro on port',
+    pt: 'reinicia o giroscópio na porta',
   },
   '#blk-run_motor_on_port#': {
     en: 'run motor on port',
+    pt: 'ligando o motor na porta',
   },
   '#blk-at#': {
     en: 'at',
+    en: 'em',
+    
   },
   '#blk-run_motor_tooltip#': {
     en: 'motor will continue running until given a different command',
+    pt: 'o motor continuará funcionando até receber um comando diferente',
   },
   '#blk-to_position#': {
     en: 'to position',
+    pt: 'para posição',
   },
   '#blk-say#': {
     en: 'say',
+    pt: 'fale',
   },
   '#blk-and_dont_wait#': {
     en: 'and don\'t wait',
